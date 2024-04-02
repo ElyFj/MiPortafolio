@@ -1,0 +1,98 @@
+.myContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.myForm {
+  width: 80%;
+  max-width: 400px;
+  
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  
+}
+
+.myInput {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.myInput:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.myButton {
+  height: 2.8em;
+ width: 9em;
+ background: transparent;
+ -webkit-animation: jello-horizontal 0.9s both;
+ animation: jello-horizontal 0.9s both;
+ border: 2px solid var(--dark-orange) ;
+ outline: none;
+ color: var(--dark-orange) ;
+ font-size: 17px;
+}
+
+.myButton:hover {
+  background: var(--dark-orange) ;
+ color: #ffffff;
+ animation: squeeze3124 0.9s both;
+}
+
+.thankYouContainer {
+  text-align: center;
+  color: var(--dark-orange);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .myForm {
+    width: 90%;
+  }
+}
+@keyframes squeeze3124 {
+  0% {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+  }
+ 
+  30% {
+   -webkit-transform: scale3d(1.25, 0.75, 1);
+   transform: scale3d(1.25, 0.75, 1);
+  }
+ 
+  40% {
+   -webkit-transform: scale3d(0.75, 1.25, 1);
+   transform: scale3d(0.75, 1.25, 1);
+  }
+ 
+  50% {
+   -webkit-transform: scale3d(1.15, 0.85, 1);
+   transform: scale3d(1.15, 0.85, 1);
+  }
+ 
+  65% {
+   -webkit-transform: scale3d(0.95, 1.05, 1);
+   transform: scale3d(0.95, 1.05, 1);
+  }
+ 
+  75% {
+   -webkit-transform: scale3d(1.05, 0.95, 1);
+   transform: scale3d(1.05, 0.95, 1);
+  }
+ 
+  100% {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+  }
+ }
+ 

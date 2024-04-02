@@ -1,0 +1,22 @@
+.me {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
+  color: aliceblue;
+  flex-direction: column;
+}
+.aboutme{
+    display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
+  color:var(--white);
+  margin: 28px 100px 0 100px;
+  background-color: var(--orange-shadow);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
